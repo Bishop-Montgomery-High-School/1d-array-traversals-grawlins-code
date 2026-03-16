@@ -73,6 +73,7 @@ public class Counter {
         // TODO: initialize a counter to 0
         int counter = 0;
 
+
         // TODO: loop through arr
         //       if the element equals target, increment the counter
         for(int i: arr) {
