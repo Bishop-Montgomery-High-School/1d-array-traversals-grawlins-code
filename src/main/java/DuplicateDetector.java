@@ -36,6 +36,7 @@ public class DuplicateDetector {
             }
         }
 
+
         // TODO: write the inner loop (j from i + 1 to arr.length - 1)
 
         // TODO: if arr[i] == arr[j], set the flag to true

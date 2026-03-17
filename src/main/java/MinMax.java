@@ -53,6 +53,7 @@ public class MinMax {
             }
         }
 
+
         // TODO: return the tracking variable
         return track; // placeholder
     }

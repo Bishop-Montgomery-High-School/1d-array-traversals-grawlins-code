@@ -28,6 +28,7 @@ public class PropertyChecker {
             }
         }
 
+
         // TODO: return the flag
         return redFlag; // placeholder
     }

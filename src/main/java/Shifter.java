@@ -24,6 +24,7 @@ public class Shifter {
         }
         arr[arr.length-1]=0;
 
+
         // TODO: set arr[arr.length - 1] to 0
     }
 

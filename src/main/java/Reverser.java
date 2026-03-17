@@ -36,6 +36,7 @@ public class Reverser {
             left = left +1;
             right = right -1;
         }
+
         //   Inside the loop:
         //     - save arr[left] in a temporary variable
         //     - copy arr[right] into arr[left]

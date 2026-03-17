@@ -55,6 +55,7 @@ public class SumAverage {
         // TODO: divide the sum by arr.length (integer division — no cast needed)
         average = (sum) / (arr.length);
 
+
         // TODO: return the result
         return average; // placeholder
     }
