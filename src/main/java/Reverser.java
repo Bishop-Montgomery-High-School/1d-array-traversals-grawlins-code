@@ -25,8 +25,17 @@ public class Reverser {
      */
     public void reverse(int[] arr) {
         // TODO: declare int left = 0 and int right = arr.length - 1
+        int left = 0;
+        int right = arr.length - 1;
 
         // TODO: write a while loop that continues as long as left < right
+        while(left<right){
+            int temporary = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temporary;
+            left = left +1;
+            right = right -1;
+        }
         //   Inside the loop:
         //     - save arr[left] in a temporary variable
         //     - copy arr[right] into arr[left]
